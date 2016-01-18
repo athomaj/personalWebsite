@@ -8,12 +8,16 @@ class ProfileController < ApplicationController
   attr_accessor :biography
   def initialize
     @fullName = "julien"
-    @job = "Software developper"
+    @job = "Developper"
     @country = "France"
     @city = "Marseille"
     @age = "20"
-    @pictureName = "portrait.jpg"
-    @biography = "lolilol"
+    @pictureName = "assets/portrait.jpg"
+    @biography = "I'm a young developper currently in third year of a master in computer programming at Epitech, France.
+                  I worked mostly on C, C++ and python during my studies.
+                  I improved my skills with web and mobile developpement by myself and during a 6 mounth internship.
+                  Hard worker and passionated, I'm looking for new experiences to increase my skills."
+
   end
   def profile
   end
