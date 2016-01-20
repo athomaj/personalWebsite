@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
   attr_accessor :myProjects
   def initialize
     @citation = "hello world"
-    @myProjects = [ {:title => "RType", :image => "accueilrtype.png", :description => "A multiplayer Shoot 'Em Up in C++ using SFML.", :tags => "C++, SFML, Network, Cross-platform", :link => "my_work/rtype"},
+    @myProjects = [ {:title => "RType", :image => "images/accueilrtype.png", :description => "A multiplayer Shoot 'Em Up in C++ using SFML.", :tags => "C++, SFML, Network, Cross-platform", :link => "my_work/rtype"},
                     {:title => "babel", :image => "images/accueilbabel.png", :description => "A Skype like allowing to communicate over the network", :tags => "C++, QT, Network, Cross-platform", :link => "my_work/babel"},
                     {:title => "bomberman", :image => "images/accueilbomber.png", :description => "A multiplayer bomberman", :tags => "C++, QT, Network, OpenGL", :link => "my_work/bomberman"},
                     {:title => "littlethumb", :image => "images/accueilsmdtv.png", :description => "Creation of a virtual environment allowing a robot to ride independently", :tags => "C++, Android, Tango, ROS", :link => "my_work/littlethumb"},
