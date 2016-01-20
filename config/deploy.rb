@@ -5,6 +5,7 @@ set :repo_url, 'git@github.com:athomaj/personalWebsite.git' # Edit this to match
 set :branch, :master
 set :deploy_to, '/home/ubuntu/personalWebsite'
 set :pty, true
+set :linked_files, %w{config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
 set :keep_releases, 5
 set :rvm_type, :user
