@@ -9,7 +9,6 @@ Rails.application.config.assets.precompile += %w( script.js )
 Rails.application.config.assets.precompile += %w( bootstrap.min.js )
 Rails.application.config.assets.precompile += %w( jquery.min.js )
 Rails.application.config.assets.precompile += %w( favicon.ico )
-Rails.application.config.assets.precompile += %w( glyphicons-halflings-regular.ttf )
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 
