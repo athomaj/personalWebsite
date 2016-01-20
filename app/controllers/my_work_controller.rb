@@ -5,7 +5,7 @@ class MyWorkController < ApplicationController
     We are  using UDP to send game data and TCP for everything else.
     Developped in C++ with SFML as graphic library."
     @github = "https://github.com/athomaj/mygithubpage"
-    @images = [{:path => "images/rtype.png", :alt => "rtype"}]
+    @images = [{:path => "../images/rtype.png", :alt => "rtype"}]
     @title = "Rtype"
   end
 
