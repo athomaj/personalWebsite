@@ -1,0 +1,28 @@
+<h2>Profile</h2>
+<p class="lead">I&#039;m a <%= @profile.job %></p>
+
+<hr />
+
+<div class="row">
+	<div class="col-md-4">
+		<h3>About me</h3>
+		<p>
+			<%= @profile.biography %>
+		</p>
+	</div>
+	<div class="col-md-4 text-center">
+		<img src="<%= @profile.pictureName %>"  alt="<%= @userName %>" width="246" height="246" />
+	</div>
+	<div class="col-md-4">
+		<h3>Details</h3>
+		<p>
+			<strong>Name:</strong><br />
+			<%= @profile.fullName %><br />
+			<strong>Age:</strong><br />
+			<%= @profile.age %> years<br />
+			<strong>Location:</strong><br />
+			<%= @profile.city %>, <%= @profile.country %>
+		</p>
+
+	</div>
+</div>

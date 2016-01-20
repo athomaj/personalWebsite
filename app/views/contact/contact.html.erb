@@ -1,0 +1,28 @@
+<h2>Contact</h2>
+
+<hr />
+
+<div class="row">
+	<div class="col-md-6">
+		<ul class="no-bullets">
+			<li>
+				<a href="<%= @contact.linkedin %>" target="_blank">
+					<span class="icon icon-linkedin"></span>
+					<%= @contact.linkedin %>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<ul class="no-bullets">
+			<li>
+				<a href="mailto:<%= @contact.email %>">
+					<span class="icon icon-email"></span>
+					<span style="unicode-bidi:bidi-override; direction: rtl;">
+						<%= @contact.email.reverse %>
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,68 @@
+<h2>Experiences</h2>
+
+<hr />
+
+<h3>Educations</h3>
+<div class="experiences">
+
+	<% @experiences.educations.each do |education| %>
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4><%= education[:title] %></h4>
+			<p class="experience-period">
+				<%= education[:startDate] %>
+				-
+				<%= education[:endDate] %>
+			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong><%= education[:status] %> - <%= education[:job] %></strong>
+				<span class="hidden-phone">
+						<%= education[:description] %>
+				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+							<%= education[:location] %>
+					</span>
+				</span>
+			</p>
+		</div>
+	</div>
+	<% end %>
+</div>
+
+<hr />
+
+<h3>Careers</h3>
+
+<div class="experiences">
+
+	<% @experiences.careers.each do |career| %>
+	<div class="experience row">
+		<div class="col-md-4">
+			<h4><%= career[:title] %></h4>
+			<p class="experience-period">
+				<%= career[:startDate] %>
+				-
+				<%= career[:endDate] %>
+			</p>
+		</div>
+		<div class="col-md-8">
+			<p>
+				<strong><%= career[:status] %> - <%= career[:job] %></strong>
+				<span class="hidden-phone">
+					<%= career[:description] %>
+				</span>
+				<span class="experience-details">
+					<span class="location">
+						<span class="glyphicon glyphicon-map-marker"></span>
+						<%= career[:location] %>
+					</span>
+				</span>
+			</p>
+		</div>
+	</div>
+	<% end %>
+</div>
