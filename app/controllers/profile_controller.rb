@@ -12,7 +12,7 @@ class ProfileController < ApplicationController
     @country = "France"
     @city = "Marseille"
     @age = "20"
-    @pictureName = "assets/portrait.jpg"
+    @pictureName = "portrait.jpg"
     @biography = "I'm a young developper currently in third year of a master in computer programming at Epitech, France.
                   I worked mostly on C, C++ and python during my studies.
                   I improved my skills with web and mobile developpement by myself and during a 6 mounth internship.
