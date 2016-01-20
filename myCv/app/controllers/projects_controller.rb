@@ -3,8 +3,13 @@ class ProjectsController < ApplicationController
   attr_accessor :myProjects
   def initialize
     @citation = "hello world"
-    @myProjects = [ {:title => "RType", :image => "rtype.jpg", :description => "game", :tags => "c++, qt", :link => "my_work/rtype"},
-                    {:title => "babel", :image => "babel.png", :description => "skype", :tags => "c++, boost", :link => "my_work/babel"}
+    @myProjects = [ {:title => "RType", :image => "accueilrtype.png", :description => "A multiplayer Shoot 'Em Up in C++ using SFML.", :tags => "C++, SFML, Network, Cross-platform", :link => "my_work/rtype"},
+                    {:title => "babel", :image => "accueilbabel.png", :description => "A Skype like allowing to communicate over the network", :tags => "C++, QT, Network, Cross-platform", :link => "my_work/babel"},
+                    {:title => "bomberman", :image => "accueilbomber.png", :description => "A multiplayer bomberman", :tags => "C++, QT, Network, OpenGL", :link => "my_work/bomberman"},
+                    {:title => "littlethumb", :image => "accueilsmdtv.png", :description => "Creation of a virtual environment allowing a robot to ride independently", :tags => "C++, Android, Tango, ROS", :link => "my_work/littlethumb"},
+                    {:title => "nibbler", :image => "accueilnibbler.png", :description => "A Snake using a single core for multiple dynamicly loaded library", :tags => "C++, SDL, OpenGL, NCurses, Dynamic Libraries", :link => "my_work/nibbler"},
+                    {:title => "raytracer", :image => "accueilrt.png", :description => "A synthesis image generator with a cluster", :tags => "C, Raytracing, Cluster", :link => "my_work/raytracer"},
+                    {:title => "wolf3d", :image => "accueilwolf.png", :description => "A Game like Wolfenstein 3D, allowing to move inside a labyrinth", :tags => "C, Raycasting", :link => "my_work/wolf3d"},
               ]
   end
   def projects

@@ -1,2 +1,17 @@
-<h1>MyWork#littlethumb</h1>
-<p>Find me in app/views/my_work/littlethumb.html.erb</p>
+<h2><%= @title %></h2>
+<hr />
+<div class="modal-body">
+  <% @images.each do |image| %>
+    <img class="img-responsive center-block" src="<%= image[:path] %>" alt="<%= image[:alt] %>" width="500" length="500" >
+  <% end %>
+<br />
+  <p align="center">
+    <% @description.split("\n").each do |t| %>
+      <%= t %><br>
+    <% end %>
+    <% if @github %>
+      <br />
+      <a href="<%= @github %>" target="_blank">See project on github </a>
+      <% end %>
+  </p>
+</div>

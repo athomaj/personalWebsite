@@ -7,13 +7,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<meta name="author" content="Pascal van Gemert" />
-	<meta name="description" content="I'm Pascal van Gemert, a ninja webdeveloper / creative programmer with good knowledge of front-end technics." />
-	<meta name="keywords" content="Pascal van Gemert, Interactive Resume, PHP programmer, Web developer, Startup, Interactive CV, Resume, CV, Whoopaa, HRMatches, Sanitairwinkel, Algorithms, PHP, MySQL, OOP" />
-	<meta name="robots" content="index, follow" />
-	<meta name="revisit-after" content="14 days" />
+	<meta name="author" content="Julien Athomas" />
 
-	<title>Pascal van Gemert - Web Developer - Interactive Resume</title>
+	<title>Julien Athomas - Interactive Resume</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
@@ -21,8 +17,7 @@
   <%= stylesheet_link_tag 'bootstrap.min' %>
   <%= stylesheet_link_tag 'style' %>
 
-	<link rel="shortcut icon" href="<?= BASE; ?>favicon.ico" type="image/x-icon" />
-	<link rel="icon" href="<?= BASE; ?>favicon.ico" type="image/x-icon" />
+	<%= favicon_link_tag 'favicon.ico' %>
 
 	<!--[if lt IE 9]>
 		<script src="<?= VIEW_PATH; ?>js/html5shiv.js"></script>
@@ -33,7 +28,7 @@
 <body data-spy="scroll" data-target="#navbar-example">
 
 
-	<div id="top" class="jumbotron" data-src="<?= $current_header['source']; ?>" data-position="<?= $current_header['position']; ?>">
+	<div id="top" class="jumbotron">
 		<div class="container">
 			<h1><%= @userName %> </h1>
 			<p class="lead">Interactive resume</p>
@@ -100,7 +95,6 @@
 		</div>
 	</div>
 
-	<?php include(VIEW_INCLUDE_PATH.'sections/upgrade.inc.php'); ?>
 
 <%= javascript_include_tag('script.js') %>
 <%= javascript_include_tag('bootstrap.min.js') %>
