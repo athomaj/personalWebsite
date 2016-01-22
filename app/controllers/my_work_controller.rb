@@ -3,7 +3,7 @@ class MyWorkController < ApplicationController
     @description = "Developing a cross platform Shoot ‘Em Up in C++.
     We are able to create rooms, to load custom maps and to play in network.
     We are  using UDP to send game data and TCP for everything else.
-    Developped in C++ with SFML as graphic library."
+    Developed in C++ with SFML as graphic library."
 #    @github = "https://github.com/athomaj/RType"
     @images = [{:path => "../images/rtype.png", :alt => "rtype"}]
     @title = "Rtype"
@@ -13,7 +13,7 @@ class MyWorkController < ApplicationController
     @description = "Developing a cross platform Voice over IP application in C++.
     You can create calls to discuss with your friends other the network.
     We are  using UDP to send sound data in P2P and TCP for everything else.
-    Developped in C++ with QT for the menu, portaudio as audio library and opus to encode data."
+    Developed in C++ with QT for the menu, portaudio as audio library and opus to encode data."
 
     #@github = "https://github.com/athomaj/Babel"
     @images = [{:path => "../images/babel.png", :alt => "babel"}]
@@ -22,7 +22,7 @@ class MyWorkController < ApplicationController
 
   def bomberman
     @description = "Development of the famous game, Bomberman.
-    The game is developped in C++ with the possibility to play against an AI.
+    The game is developed in C++ with the possibility to play against an AI.
     There is also the possibility to create rooms and to play with friends in network.
     Developed in C++ with a library based on OpenGL"
     #@github = "https://github.com/athomaj/bomberman"
