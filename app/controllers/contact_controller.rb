@@ -4,7 +4,7 @@ class ContactController < ApplicationController
   attr_accessor :email
   def initialize
     @citation = "hello world"
-    @linkedin = "https://www.linkedin.com/in/julien-athomas-60112510b"
+    @linkedin = "https://www.linkedin.com/in/athomasjulien"
     @email = "julien.athomas@epitech.eu"
   end
   def contact
