@@ -27,7 +27,7 @@
    right: 10px;
    width: 25px;
    height: 15px;
-   background: url("flagFR.svg");
+   background: url(asset-path("flagFR.svg"));
    background-size: 25px 15px;
    z-index: 2;
    opacity: 0.4;
@@ -40,7 +40,7 @@
    right: 10px;
    width: 25px;
    height: 15px;
-   background: url("flagEN.svg");
+   background: url(asset-path("flagEN.svg"));
    background-size: 25px 15px;
    z-index: 2;
    opacity: 0.4;
