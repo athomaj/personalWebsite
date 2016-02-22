@@ -20,8 +20,8 @@ class AbilitiesController < ApplicationController
                 {:title => "C#", :level => 3},
                 {:title => "Assembly", :level => 2},
               ]
-    @languages = [  {:title => "French", :level => 5},
-                    {:title => "English", :level => 4},
+    @languages = [  {:title => t(:french), :level => 5},
+                    {:title => t(:english), :level => 4},
               ]
     @tools = [
                 {:title => "OSX", :level => 5},

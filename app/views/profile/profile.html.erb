@@ -1,11 +1,11 @@
-<h2>Profile</h2>
-<p class="lead">I&#039;m a <%= @profile.job %></p>
+<h2><%= t(:profile)%></h2>
+<p class="lead"><%= @profile.job %></p>
 
 <hr />
 
 <div class="row">
 	<div class="col-md-4">
-		<h3>About me</h3>
+		<h3><%= t(:aboutMe)%></h3>
 		<p>
 			<%= @profile.biography %>
 		</p>
@@ -14,16 +14,21 @@
 		<img src="<%= @profile.pictureName %>"  alt="<%= @userName %>" width="246" height="246" id="profilepicture"/>
 	</div>
 	<div class="col-md-4">
-		<h3>Details</h3>
+		<h3><%= t(:details)%></h3>
 		<p>
-			<strong>Name:</strong><br />
+			<strong><%= t(:name)%>:</strong><br />
 			<%= @profile.fullName %><br />
-			<strong>Age:</strong><br />
-			<%= @profile.age %> years old<br />
-			<strong>Location:</strong><br />
+			<strong><%= t(:age)%>:</strong><br />
+			<%= @profile.age %> <%= t(:yearKeyword) %><br />
+			<strong><%= t(:location)%>:</strong><br />
 			<%= @profile.city %>, <%= @profile.country %><br />
-			<a href="assets/Julien Athomas Resume.pdf" download="julien athomas resume" class="btn btn-info "><span class="glyphicon glyphicon-save"></span> My resume</a>
+			<a href="<%= t(:cvLink)%>" download="julien athomas resume" class="btn btn-info "><span class="glyphicon glyphicon-save"></span> <%= t(:resumeKeyword)%></a>
 		</p>
-
+	<% if I18n.locale != :fr %>
+		<%= link_to "", {:locale=>'fr'}, {:class=> "frIcon"} %>
+	<% end %>
+	<% if I18n.locale != :en %>
+		<%= link_to "", {:locale=>'en'}, {:class=> "enIcon"} %>
+	<% end %>
 	</div>
 </div>

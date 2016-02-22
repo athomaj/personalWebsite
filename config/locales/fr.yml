@@ -1,0 +1,11 @@
+fr:
+  title: "CV interactif"
+  profile: "Profil"
+  job: "je suis un développeur"
+
+  scrollProfile: "Profil"
+  scrollExperiences: "Experiences"
+  scrollAbilities: "Notions"
+  scrollInterests: "Interets"
+  scrollProjects: "Projets"
+  scrollContact: "Contact"

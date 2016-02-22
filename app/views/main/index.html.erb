@@ -9,7 +9,7 @@
 
 	<meta name="author" content="Julien Athomas" />
 
-	<title>Julien Athomas - Interactive Resume</title>
+	<title>Julien Athomas - t(:title)</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" type="text/css" />
@@ -31,7 +31,7 @@
 	<div id="top" class="jumbotron">
 		<div class="container">
 			<h1><%= @userName %> </h1>
-			<p class="lead">Interactive resume</p>
+			<p class="lead"><%= t(:title) %></p>
 		</div>
 
 		<div class="overlay"></div>
@@ -55,12 +55,12 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#profile">Profile</a></li>
-				<li><a href="#experiences">Experiences</a></li>
-				<li><a href="#abilities">Abilities</a></li>
-				<li><a href="#interests">Interests</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li class="active"><a href="#profile"><%= t(:scrollProfile)%></a></li>
+				<li><a href="#experiences"><%= t(:scrollExperiences)%></a></li>
+				<li><a href="#abilities"><%= t(:scrollAbilities)%></a></li>
+				<li><a href="#interests"><%= t(:scrollInterests)%></a></li>
+				<li><a href="#projects"><%= t(:scrollProjects)%></a></li>
+				<li><a href="#contact"><%= t(:scrollContact)%></a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>

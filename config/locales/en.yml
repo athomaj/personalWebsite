@@ -20,4 +20,101 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title: "Interactive Resume"
+  profile: "Profile"
+  job: "I'm a developer"
+  aboutMe: "About me"
+  biography: "I'm a young developer currently in my third year studying a master in computer programming at Epitech, one of the best IT schools in France.
+  I worked mostly with C, C++ and Python during my studies.
+  During my 6 months internship and my free time, I improved my skills in web and mobile development.
+  Hard worker and passionate, I'm looking for new experiences to improve my skills."
+  details: "Details"
+  name: "Name"
+  age: "Age"
+  location: "Location"
+  myName: "Julien Athomas"
+  yearKeyword: "years old"
+  resumeKeyword: "My resume"
+  cvLink: "assets/Julien Athomas Resume.pdf"
+  experiences: "Experiences"
+  educations: "Educations"
+  careers: "Careers"
+  EpiEduStart: "October 2013"
+  EpiEduEnd: "current"
+  EpiEduStatus: "Master"
+  EpiEduJob: "Computer Science"
+  EpiEduDesc: "A Project oriented pedagogy leading to a vast amount of programming, around 30 projects a year. Working on low level languages and notions, like creating a shell, doing network, threads,..."
+
+  HSEduStart: "September 2010"
+  HSEduEnd: "July 2013"
+  HSEduStatus: "Highschool"
+  HSEduJob: "Science"
+  HSEduDesc: "Learning basis in science, story, geography, languages."
+
+  EpiIntStart: "March 2015"
+  EpiIntEnd: "current"
+  EpiIntStatus: "internship"
+  EpiIntJob: "Student Staff"
+  EpiIntDesc: "Managing pedagogical activities of the school such as courses and workshops. Following and bringing technical support to first and second year students."
+
+  LIIntStart: "July 2014"
+  LIIntEnd: "December 2014"
+  LIIntStatus: "internship"
+  LIIntJob: "Web developer"
+  LIIntDesc: "Building an architecture and choosing technologies from an idea: creating an industrial supervision web application. I developed a responsive website that shows peripherals and enables to display/send data. The application is developed with nodejs, angular, html5/css3, mongodb, websocket."
+
+  abilities: "Abilities"
+  skills: "Skills"
+  languages: "Languages"
+  tools: "Tools"
+  french: "French"
+  english: "English"
+  interests: "Interests"
+  cookingTitle: "cooking"
+  cookingDesc: "I like cooking and baking everytime I can. It enables me to change my mind."
+  sportTitle: "sport"
+  sportDesc: "I go to the gym three times a week and twice a month, I play socker/handball."
+  projects: "Projects"
+  rtypeDesc: "A multiplayer Shoot 'Em Up in C++ using SFML."
+  babelDesc: "A Skype like allowing to communicate over the network"
+  bomberDesc: "A multiplayer bomberman"
+  LTDesc: "Creation of a virtual environment allowing a robot to ride independently"
+  nibblerDesc: "A Snake using a single core for multiple dynamicly loaded library"
+  rtDesc: "A synthesis image generator with a cluster"
+  wolfDesc: "A Game like Wolfenstein 3D, allowing to move inside a labyrinth"
+  contact: "Contact"
+  workRtypeDesc: "Developing a cross platform Shoot ‘Em Up in C++.\n
+  We are able to create rooms, to load custom maps and to play in network.\n
+  We are  using UDP to send game data and TCP for everything else.\n
+  Developed in C++ with SFML as graphic library.\n"
+  workBabelDesc: "Developing a cross platform Voice over IP application in C++.\n
+  You can create calls to discuss with your friends other the network.\n
+  We are  using UDP to send sound data in P2P and TCP for everything else.\n
+  Developed in C++ with QT for the menu, portaudio as audio library and opus to encode data.\n"
+  workBomberDesc: "Development of the famous game, Bomberman.\n
+  The game is developed in C++ with the possibility to play against an AI.\n
+  There is also the possibility to create rooms and to play with friends in network.\n
+  Developed in C++ with a library based on OpenGL\n"
+  workNibblerDesc: "Developing a snake with dynamically loaded graphic library in C++ on linux.\n
+  The game is using a single game engine and can be launched with different graphgic libraries thanks to abstractions.\n
+  We used SDL, OpenGL and Ncurses as graphic libraries.\n"
+  workZappyDesc: "Developing a cross platform Shoot ‘Em Up in C++.\n
+  We are able to create rooms, to load custom maps and to play online.\n
+  We are  using UDP to send game data and TCP for everything else.\n"
+  workLTDesc: "Project in touch with a company, SmardTV.\n
+  Developing an application allowing a robot to go back to its initial position by itself.\n
+  Using the google tango tablet to create a graphic representation of the environment and ROS to communicate between applications.\n"
+  workRTDesc: "Creation of a synthesis image generator in C using raytracing.\n
+  We are able to generate images from a simple configuration file, choosing form, colors, size, position, reflection...\n
+  We used minilibx as graphic library.\n"
+  workWolfDesc: "Developing a graphic labyrinth representation, like for Wolfenstein 3D.\n
+  We can move inside a map, generating the image with the raycasting method.\n
+  Developed in C and with the minilibx as graphic library.\n"
+  githubMsg: "See project on github"
+
+  scrollProfile: "Profile"
+  scrollExperiences: "Experiences"
+  scrollAbilities: "Abilities"
+  scrollInterests: "Interests"
+  scrollProjects: "Projects"
+  scrollContact: "Contact"
