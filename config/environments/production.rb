@@ -7,6 +7,8 @@ Rails.application.configure do
   # Precompile additional assets
   config.assets.precompile += %w( .svg .eot .woff .ttf .css .js)
 
+  config.assets.precompile =  ['*.js', '*.css', '*.css.erb'] 
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
