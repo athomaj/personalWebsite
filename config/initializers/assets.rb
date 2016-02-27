@@ -13,7 +13,7 @@ Rails.application.config.assets.precompile += %w( glyphicons-halflings-regular.t
 Rails.application.config.assets.precompile += %w( glyphicons-halflings-regular.eot )
 Rails.application.config.assets.precompile += %w( glyphicons-halflings-regular.woff )
 # Add additional assets to the asset load path
-Rails.application.config.assets.paths << "#{Rails.root}/public/assets"
+#Rails.application.config.assets.paths << "#{Rails.root}/public/assets"
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
