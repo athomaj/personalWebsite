@@ -1,9 +1,9 @@
 lock '3.4.0'
 
-set :application, 'personalWebsite'
+set :application, 'myWebsite'
 set :repo_url, 'git@github.com:athomaj/personalWebsite.git' # Edit this to match your repository
 set :branch, :master
-set :deploy_to, '/home/ubuntu/personalWebsite'
+set :deploy_to, '/home/deploy/myWebsite'
 set :pty, true
 set :linked_files, %w{config/application.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
