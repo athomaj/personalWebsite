@@ -1,0 +1,813 @@
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url(glyphicons-halflings-regular.ttf) format("truetype");
+}
+/* line 7, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+html, body {
+  color: #434242;
+  font-family: 'Open Sans', sans-serif !important;
+  height: 100%;
+}
+
+/* line 8, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+body {
+  background: #F3EFE0;
+  font-size: 15px;
+  line-height: 1.64;
+}
+
+/* line 10, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+  font-family: 'Open Sans', sans-serif !important;
+  margin-bottom: 20px;
+}
+
+/* line 11, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+h1, h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* line 12, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+h2, h3 {
+  font-weight: 300;
+  color: #22A39F;
+}
+
+/* line 13, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+h2 {
+  font-size: 54px;
+  text-align: center;
+}
+
+/* line 14, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+h3 {
+  font-size: 28px;
+}
+
+/* line 16, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+p.lead {
+  text-align: center;
+  color: #727878;
+}
+
+/* line 17, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+p.lead a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* line 18, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+p.lead a:hover {
+  text-decoration: none;
+}
+
+/* line 19, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 20, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+hr {
+  margin: 40px 0px;
+  border-color: #727878;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+/* line 22, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.project-referal {
+  margin-top: 40px;
+}
+
+/* line 23, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.project-referal p {
+  font-style: italic;
+  color: #999999;
+}
+
+/* line 25, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.btn-primary {
+  background-color: #22A39F;
+  border-color: #1c8784;
+}
+
+/* line 26, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.btn-primary:hover {
+  background-color: #1c8784;
+  border-color: #1c8784;
+}
+
+/* line 28, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.icon {
+  display: inline-block;
+  background: url(sm_icon_sprite.png) no-repeat;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 29, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.icon.icon-twitter {
+  background-position: 0px 0px;
+}
+
+/* line 30, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.icon.icon-linkedin {
+  background-position: 0px -32px;
+}
+
+/* line 31, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.icon.icon-skype {
+  background-position: 0px -64px;
+}
+
+/* line 32, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.icon.icon-email {
+  background-position: 0px -96px;
+}
+
+/* line 34, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron {
+  background: no-repeat center right fixed url(roadCalifornia.jpg);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='roadCalifornia.jpg', sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='roadCalifornia.jpg', sizingMethod='scale');
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+/* line 54, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.frIcon {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  width: 25px;
+  height: 15px;
+  background: url(flagFR.svg);
+  background-size: 25px 15px;
+  z-index: 2;
+  opacity: 0.4;
+}
+
+/* line 67, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.enIcon {
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  width: 25px;
+  height: 15px;
+  background: url(flagEN.svg);
+  background-size: 25px 15px;
+  z-index: 2;
+  opacity: 0.4;
+}
+
+/*.jumbotron:before {
+	border: 1px solid #FFFFFF;
+	bottom: 30px;
+	content: "";
+	left: 30px;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+}*/
+/* line 88, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron .overlay {
+  background-color: #22A39F;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  z-index: 2;
+}
+
+/* line 90, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron .container {
+  position: relative;
+  top: 28%;
+  z-index: 4;
+  text-align: center;
+}
+
+/* line 91, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron .container > * {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 92, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron .container h1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+}
+
+/* line 93, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron .container .lead {
+  font-size: 28px;
+}
+
+/* line 94, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron .scroll-down {
+  height: 80px;
+  width: 110px;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 5%;
+  background-color: #222222;
+  text-align: center;
+  z-index: 6;
+}
+
+/* line 95, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron .scroll-down .glyphicon {
+  color: #FFFFFF;
+  font-size: 30px;
+  padding-right: 2px;
+  padding-top: 20px;
+  animation-name: wiggle;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+/* line 107, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.jumbotron .scroll-down:hover .glyphicon {
+  padding-top: 25px;
+}
+
+/* line 109, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar {
+  border: 0px;
+  background-color: #222222;
+  position: absolute;
+  top: 100%;
+  right: 5%;
+  width: 110px;
+  z-index: 999;
+}
+
+/* line 110, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar .navbar-collapse {
+  padding: 0px;
+  max-height: none;
+}
+
+/* line 111, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar .navbar-nav {
+  float: none;
+}
+
+/* line 112, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar-nav {
+  margin: 0px;
+}
+
+/* line 113, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar .nav > li {
+  display: block;
+  float: none;
+  height: 80px;
+}
+
+/* line 114, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar .nav > li a {
+  display: block;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+/* line 115, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar .nav > li a:hover, .navbar .nav > li a:focus {
+  color: #999999;
+}
+
+/* line 116, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: #22A39F;
+  color: #FFFFFF;
+}
+
+/* line 117, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background: #222222;
+}
+
+/* line 120, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.fixed .navbar {
+  position: fixed;
+  top: 60px;
+}
+
+/* line 122, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.background-white {
+  background: #FFFFFF;
+}
+
+/* line 123, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.background-gray {
+  background: #434242;
+}
+
+/* line 124, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.container {
+  max-width: 1280px;
+  padding: 40px 180px;
+}
+
+/* line 126, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#profile .row > div {
+  margin-bottom: 20px;
+}
+
+/* line 127, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#profile .row > div img {
+  width: 100%;
+  max-width: 246px;
+  height: auto;
+}
+
+/* line 129, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#experiences .experience {
+  margin-bottom: 20px;
+}
+
+/* line 130, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#experiences .experience p > strong {
+  display: block;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+/* line 131, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#experiences .experience .experience-details {
+  display: block;
+  margin-top: 6px;
+}
+
+/* line 132, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#experiences .experience .experience-details * {
+  color: #22A39F;
+}
+
+/* line 133, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#experiences .experience .experience-details .seperator {
+  color: #BCBCBC;
+}
+
+/* line 135, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#abilities ul > li {
+  min-height: 30px;
+  padding: 3px 0px;
+}
+
+/* line 136, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#abilities ul > li:hover {
+  background: #F2F2F2;
+}
+
+/* line 137, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#abilities ul > li .ability-title {
+  display: inline-block;
+  width: 60%;
+}
+
+/* line 138, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#abilities ul > li .ability-score {
+  float: right;
+}
+
+/* line 139, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#abilities ul > li .ability-score .glyphicon {
+  color: #DFE0E0;
+  font-size: 14px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* line 148, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#abilities ul > li .ability-score .glyphicon.filled {
+  color: #22A39F;
+}
+
+/* line 150, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#abilities ul > li:hover .ability-score .glyphicon {
+  margin-left: 2px;
+}
+
+/* line 152, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#interests .left {
+  float: left;
+}
+
+/* line 153, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#interests .right {
+  float: right;
+}
+
+/* line 154, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#interests img {
+  width: 80%;
+  height: auto;
+}
+
+/* line 155, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#interests .right img {
+  float: right;
+}
+
+/* line 156, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#interests .interest-content {
+  padding: 40px 0px;
+}
+
+/* line 158, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#interests .row:hover .left img {
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+}
+
+/* line 165, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#interests .row:hover .right img {
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+}
+
+/* #projects .row { margin: 0px; } // bootstrap 3.1- hack */
+/* line 173, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects .row > div {
+  margin-bottom: 30px;
+}
+
+/* line 174, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects figure {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 175, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects figure h3 {
+  color: #FFF;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* line 176, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects figure p > strong {
+  width: 60px;
+  display: inline-block;
+  margin: 0px;
+}
+
+/* line 177, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects figure img {
+  width: 110%;
+}
+
+/* line 178, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects figure figcaption {
+  padding: 20px 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 186, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects figure a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 198, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects figure .icon {
+  background: #22A39F;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 48px;
+  height: 48px;
+}
+
+/* line 206, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#projects figure .icon span {
+  font-size: 18px;
+  line-height: 18px;
+  padding: 15px;
+}
+
+/* line 212, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#contact {
+  padding-bottom: 200px;
+}
+
+/* line 213, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#contact h2, #contact .row * {
+  color: #FFFFFF;
+}
+
+/* line 214, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#contact a {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+/* line 215, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#contact a .icon {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 216, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+#contact a:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  text-decoration: none;
+}
+
+/* line 218, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.opl {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  z-index: 99999;
+}
+
+/* line 225, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+.opl a {
+  width: 73px;
+  height: 56px;
+  text-indent: -9999px;
+  display: block;
+  background: url("https://s3.amazonaws.com/onepagelove/one-page-love-award.png") no-repeat;
+}
+
+@media (max-width: 1200px) {
+  /* line 234, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #interests .interest-content {
+    padding: 20px 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 238, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .jumbotron:before {
+    bottom: 100px;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+  }
+
+  /* line 244, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .jumbotron .container {
+    top: 20%;
+    padding-top: 0px;
+  }
+
+  /* line 245, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .jumbotron .scroll-down {
+    width: 100%;
+    right: 0px;
+  }
+
+  /* line 247, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .navbar {
+    left: 0px;
+    width: 100%;
+  }
+
+  /* line 248, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .navbar .nav > li {
+    height: 60px;
+  }
+
+  /* line 249, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .navbar .nav > li a {
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+
+  /* line 251, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .fixed .navbar {
+    top: 0px;
+  }
+
+  /* line 253, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .container {
+    padding: 60px 20px;
+    min-width: 280px;
+  }
+
+  /* line 254, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .hidden-phone {
+    display: none;
+  }
+
+  /* line 256, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #profile .row * {
+    text-align: center;
+  }
+
+  /* line 258, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #experiences .experience .experience-details > span {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  /* line 259, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #experiences .experience .experience-details .seperator {
+    display: none;
+  }
+
+  /* line 261, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #interests .left {
+    float: none;
+  }
+
+  /* line 262, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #interests .right {
+    float: none;
+  }
+
+  /* line 264, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #interests > * {
+    text-align: center;
+  }
+
+  /* line 265, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #interests img {
+    width: 50%;
+    height: auto;
+    float: none !important;
+  }
+
+  /* line 266, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #interests .interest-content {
+    padding: 20px 0px;
+  }
+
+  /* line 268, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #contact {
+    padding-bottom: 60px;
+  }
+
+  /* line 269, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  #contact a .icon {
+    float: left;
+    margin-right: 10px;
+  }
+}
+@media only screen and (orientation: portrait) and (max-width: 767px) {
+  /* line 273, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .jumbotron {
+    -webkit-background-size: auto 150%;
+    background-attachment: scroll;
+  }
+}
+@media only screen and (orientation: landscape) and (max-width: 767px) {
+  /* line 280, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .jumbotron {
+    -webkit-background-size: 150% auto;
+    background-attachment: scroll;
+  }
+
+  /* line 285, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+  .jumbotron .lead {
+    display: none;
+  }
+}
+@keyframes wiggle {
+  0% {
+    padding-top: 20px;
+  }
+  50% {
+    padding-top: 28px;
+  }
+  100% {
+    padding-top: 20px;
+  }
+}
+/*---------------*/
+/***** EFFECT *****/
+/*---------------*/
+/* line 307, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect {
+  background: #22A39F;
+  color: #FFF;
+}
+
+/* line 312, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect img {
+  width: -webkit-calc(100% + 20px);
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* line 323, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect:hover img {
+  opacity: 0.2;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 329, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect figcaption {
+  text-align: left;
+}
+
+/* line 333, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect h3 {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 20px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/* line 342, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect:hover h3 {
+  opacity: 1;
+}
+
+/* line 346, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect h3::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+
+/* line 360, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect:hover h3::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 365, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect p {
+  padding-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+/* line 374, /Users/julienathomas/Projects/personalWebsite/app/assets/stylesheets/style.css.scss */
+figure.effect:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
