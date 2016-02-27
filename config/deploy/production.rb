@@ -7,6 +7,7 @@ server '54.152.163.253', user: 'deploy', roles: %w{web app db}
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
+config.serve_static_assets = true
 
 
 # role-based syntax
