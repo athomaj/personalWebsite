@@ -2,7 +2,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   # Add the fonts path
 
-  config.assets.paths << Rails.root.join('app', 'assets', 'fonts', 'public/assets')
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts', 'public')
 
   # Precompile additional assets
   config.assets.precompile += %w( .svg .eot .woff .ttf .css .js)
@@ -28,7 +28,7 @@ Rails.application.configure do
 
   # Disable serving static files from the `/public` folder by default since
   # Apache or NGINX already handles this.
-  config.serve_static_files = false
+  config.serve_static_files = true
 #  config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
   # Compress JavaScripts and CSS.
