@@ -2,12 +2,10 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   # Add the fonts path
 
-  config.assets.paths << Rails.root.join('app', 'assets', 'fonts', 'public')
+  config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
 
   # Precompile additional assets
-  config.assets.precompile += %w( .svg .eot .woff .ttf .css .js)
-
-  config.assets.precompile =  ['*.js', '*.css', '*.css.erb'] 
+  config.assets.precompile =  ['*.js', '*.css', '*.css.erb']
 
   # Code is not reloaded between requests.
   config.cache_classes = true
