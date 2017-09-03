@@ -11,8 +11,8 @@ class ProfileController < ApplicationController
     @job = t(:job)
     @country = "France"
     @city = "Marseille"
-    @age = "20"
-    @pictureName = "images/portrait.jpg"
+    @age = "21"
+    @pictureName = "images/new_portrait.jpg"
     @biography = t(:biography)
 
   end

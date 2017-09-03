@@ -22,12 +22,9 @@
 en:
   title: "Interactive Resume"
   profile: "Profile"
-  job: "I'm a developer"
+  job: "Full Stack Developer"
   aboutMe: "About me"
-  biography: "I'm a young developer currently in my third year studying a master in computer programming at Epitech, one of the best IT schools in France.
-  I worked mostly with C, C++ and Python during my studies.
-  During my 6 months internship and my free time, I improved my skills in web and mobile development.
-  Hard worker and passionate, I'm looking for new experiences to improve my skills."
+  biography: "Young developer currently in fifth year of my Masters degree in computer science in Epitech, one of the best IT school in France. Many experiences in web, mobile and backend development helped me to hone my knowledge in development. Hard Worker, Autonomous and Passionate,  I am looking for new experiences to improve my skills."
   details: "Details"
   name: "Name"
   age: "Age"
